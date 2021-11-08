@@ -1,5 +1,6 @@
 # Banco de Dados - INTRODUÇÃO
 ### Introdução Banco de Dados
+![banco](https://github.com/ERONILDOJUNIOR/SQL-introdu-o/blob/main/imagens/5a54fd9f-bbc2-4e6c-a6b0-86d1e70390c6.jpg)
 ## O que são banco de dados?
 São um conjunto de arquivos relacionados entre si com registros. 
 São coleções organizadas de dados que fazem em conjunto um sentido trazendo informações.
