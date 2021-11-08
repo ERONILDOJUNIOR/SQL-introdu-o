@@ -27,7 +27,7 @@ Armazenam os dados de forma robusta, mantendo segurança e integridade dos dados
 # SQL - INTRODUÇÃO
 ### Introdução a linguagem SQL
   ## Definição -
-    Structured Query Language - é a linguagem usada para executar comandos em bancos de dados relacionais, ou seja, baseado em tabelas. 
+    Structured Query Language - é a linguagem usada para executar comandos em bancos de dados relacionais, baseado em tabelas. 
   ## Operações - 
     CRUD: Criate, Read, Update e Delete. São as operações base para se lidar com bancos de dados.
   ## Tipos de Comandos:
