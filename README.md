@@ -1,4 +1,4 @@
-# SQL - INTRODUÇÃO
+# Banco de Dados - INTRODUÇÃO
 ### Introdução Banco de Dados
 ## O que são banco de dados?
 São um conjunto de arquivos relacionados entre si com registros. 
@@ -13,3 +13,11 @@ Armazenam os dados de forma robusta, mantendo segurança e integridade dos dados
     Definição Simples: Dados não relacionados entre si.
     Contexto: Usado geralmente em análise de dados como Data Science e Big Data. 
     Exemplos: MongoDB, Cassandra e CouchDB.
+# SQL - INTRODUÇÃO
+### Introdução a linguagem SQL
+  ## Definição -
+    Structured Query Language - é a linguagem usada para executar comandos em bancos de dados relacionais, ou seja, baseado em tabelas. 
+  ## Operações - 
+    CRUD: Criate, Read, Update e Delete. São as operações base para se lidar com bancos de dados.
+  ### -------------------------------------------------------------------------------------------- 
+  
