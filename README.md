@@ -31,5 +31,17 @@ Armazenam os dados de forma robusta, mantendo segurança e integridade dos dados
   ## Operações - 
     CRUD: Criate, Read, Update e Delete. São as operações base para se lidar com bancos de dados.
   ## Tipos de Comandos:
-  ## 
+  ### DML - Linguagem de Manipulação de Dados:
+    Permite manipulação de dados, como exclusão, inclusão e alterações. Exemplos de comandos:
+  ### INSERT (permite adicionar dados)
+  ### UPDATE (permite atualizar dados)
+  ### DELETE (permite apagar dados)
+  ### DDL - Linguagem de Definição de Dados:
+    Permite a criação e alteração de dados. Exemplos de comandos:
+  ### CREATE TABLE (cria tabelas)
+  ### ALTER TABLE (altera tabelas)
+  ### DROP TABLE (apaga tabelas).
+  ### DQL - Linguagem de Consulta de Dados:
+    Permite a realização de buscas nas tabelas dos bancos de dados. Exemplo de comando:
+  ### SELECT (comando mais importante usado para realizar buscas)
   
