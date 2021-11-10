@@ -23,3 +23,24 @@ Os alunos podem se matricular em cursos e ter suas respectivas notas baseadas em
 ### Nota    - 
       Estão atreladas a um aluno e um curso.
 ## Chaves primarias: Termo usado pra identificar exclusivamente um campo das tabbelas geradas (identificador).
+### Chave primária é usada pra fazer ligação entre duas entidades distintas e criar um relacionamento. 
+## Tipos de dados
+### Numéricos  -
+      Inteiros: 
+          TINYINT   - Inteiro muito peuqueno.
+          SMALLINT  - Inteiro Pequeno.
+          MEDIUMINT - Inteuiro mediano.
+          INT       - Inteiro (Padrão).
+          BIGINT    - Interiro grande.
+      Decimais:
+          DECIMAL   - Decimal de ponto fixo.
+          FLOAT     - Número de ponto flutuante precisão simples(32bits).
+          DOUBLE    - Número de pnoto flutuante prcisão dupla(64bits).
+### Texto      -
+          CHAR      - Cadeia de caracteres de tamanho determinado.
+          VARCHAR   - Cadeia de caracteres de tamanha não determinado.
+          TEXT      - Cadeia de caracteres não binária e pequena.
+### Data       -
+          DATE      - Valor referênte a uma data "YYYY-MM-DD".
+          TIME      - Valor referente a uma hora "hh:mm:ss".
+          DATETIME  - Valor referente a uma data e uma hora "YYYY-MM-DD hh:mm:ss" . 
