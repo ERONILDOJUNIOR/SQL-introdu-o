@@ -5,3 +5,21 @@ Para esse projeto será preciso armazenar os dados dos alunos (Nome, data de nas
 Os alunos podem se matricular em cursos e ter suas respectivas notas baseadas em atividades.
 
 ## Definindo entidades: Uma entidade é uma representação de um conjunto de informações sobre determinado conceito do sistema.
+### Entidade Aluno  - 
+      *Nome
+      *CPF
+      *Endereço
+      *Data de nascimento
+### Entidade Curso  - 
+      *Nome
+### Entidade Nota   - 
+      *Atividade
+      *Nota
+## Definindo relacionamentos: Como as entidades se relacionam entre si.
+### Alunos  - 
+      Podem fazer vários cursos e terão notas pra cada um deles.
+### Cursos  - 
+      Podem ser feitos por diversos alunos.
+### Nota    - 
+      Estão atreladas a um aluno e um curso.
+## Chaves primarias: Termo usado pra identificar exclusivamente um campo das tabbelas geradas (identificador).
