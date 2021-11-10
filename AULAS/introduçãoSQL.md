@@ -42,4 +42,5 @@ Armazenam os dados de forma robusta, mantendo segurança e integridade dos dados
     DROP TABLE (apaga tabelas).
   ### DQL - Linguagem de Consulta de Dados: Permite a realização de buscas nas tabelas dos bancos de dados. Exemplo de comando:
      SELECT (comando mais importante usado para realizar buscas)
-  
+## Vamos falar um pouco sobre bancos relacionais?
+[Introdução Bancos Relacionais](https://github.com/ERONILDOJUNIOR/SQL-introdu-o/edit/main/AULAS/IntroduçãoBancosRelacionais.md)
