@@ -1,4 +1,6 @@
 # CARDINALIDADES
+## Conceito:
+### A cardinalidade é um número que expressa o comportamento (número de ocorrências) de determinada entidade associada a uma ocorrência da entidade em questão através do relacionamento.
 ## Veja o esquema abaixo:
 ![cardinalidade](https://github.com/ERONILDOJUNIOR/SQL-introdu-o/blob/main/imagens/cardinalidade1.png)
 ## Porque?
