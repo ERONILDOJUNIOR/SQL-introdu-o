@@ -83,4 +83,11 @@ SET cpf='62781938125'
 where id_aluno = 6;
 ```
 ### Aqui o comando "UPDATE" faz atualização na tabela "aluno" e "seta" o cpf correto onde o "id_aluno" é igual a 6. A nova tabela terá essa cara, perceba a mudança no cpf de EDWILDSON:
-![tabela1](https://github.com/ERONILDOJUNIOR/SQL-introdu-o/blob/main/imagens/tabela2.png)
+![tabela2](https://github.com/ERONILDOJUNIOR/SQL-introdu-o/blob/main/imagens/tabela2.png)
+## Agora que atualizamos o cpf de EDWILDSON vamos aprender a excluir uma linha inteira da nossa tabela aluno:
+```sql
+DELETE FROM aluno
+WHERE id_aluno=6
+```
+### Este comando exclui da tabela "aluno" toda a linha onde o "id_aluno" é 6.
+![tabela3](https://github.com/ERONILDOJUNIOR/SQL-introdu-o/blob/main/imagens/tabela3.png)
