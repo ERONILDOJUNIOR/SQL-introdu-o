@@ -12,3 +12,5 @@
 ![cardinalidade](https://github.com/ERONILDOJUNIOR/SQL-introdu-o/blob/main/imagens/cardinalidade2.png)
 ## Como a entidade "notas" se relaciona com "alunos e Cursos" tendo apenas relação de 1 para N, Podemos relacionar "notas" somente com a nova entidade "aluno_cursos":
 ![cardinalidade](https://github.com/ERONILDOJUNIOR/SQL-introdu-o/blob/main/imagens/cardinalidade3.png)
+## Nossas tabelas terão essa cara:
+![cardinalidade](https://github.com/ERONILDOJUNIOR/SQL-introdu-o/blob/main/imagens/cardinalidade4.png)
