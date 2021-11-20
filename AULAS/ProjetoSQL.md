@@ -56,5 +56,14 @@ DROP TABLE notas
 ```sql
 DROP DATABASE cursos
 ```
-
+## Agora vamos povoar a tabela "aluno",usando os comandos abaixo:
+```sql
+INSERT INTO aluno VALUES 
+(DEFAULT, 'Eronildo Junior', '10268457183','1998-02-26','General barreto de menezes, 80','Petrolina','PE'),
+(DEFAULT, 'Ezequias Antunes', '54264527154','1998-06-17','Vital Brasil, 788','Remanso','BA'),
+(DEFAULT, 'Evelyn Mariana', '55658882349','2002-12-21','Antonio de alencar sampaio, 321','Salgueiro','PE'),
+(DEFAULT, 'Matheus dos Anjos','10336525698','1997-04-26','Veremundo soares, 10','Petrolina','PE'),
+(DEFAULT, 'Matheus Passos', '54665885632','2003-01-14','Avenida Dantas Machado, 317B','Belo Horizonte','MG'),
+(DEFAULT, 'Edwildson Rodrigues','6278193812', '1995-08-22','Avenida Barão do ouro preto, 820', 'Juazeiro', 'BA');
+```
 
