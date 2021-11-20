@@ -27,7 +27,7 @@ id_notas INT NOT NULL AUTO_INCREMENT,
 PRIMARY KEY (id_notas)
 );
 ```
-### O comando "CREATE TABLE" é usado para criar as tabelas. O comando "INT" determina que é um inteiro, o comando "NOT NULL" determina que não pode ser nula e o comando "AUTO_INCREMENT" determina que esse valores serão auto incrementados.
+### O comando "CREATE TABLE" é usado para criar as tabelas. O comando "INT" determina que é um inteiro, o comando "NOT NULL" determina que não pode ser nula e o comando "AUTO_INCREMENT" determina que esses valores serão auto incrementados.
 ## Para fazer alterações nas tabelas e inserir novas colunas utilizaremos os comandos abaixo:
 ```sql
 ALTER TABLE aluno
