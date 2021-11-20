@@ -91,3 +91,15 @@ WHERE id_aluno=6
 ```
 ### Este comando exclui da tabela "aluno" toda a linha onde o "id_aluno" é 6. Dando um SELECT novamente, temos:
 ![tabela3](https://github.com/ERONILDOJUNIOR/SQL-introdu-o/blob/main/imagens/tabela3.png)
+### Para adicionar as informações deletadas de volta na tabela execute o seguinte código:
+```sql
+insert into aluno 
+values (6, 'Edwildson Rodrigues','62781938152', '1995-08-22','Avenida Barão do ouro preto, 820', 'Juazeiro', 'BA');
+```
+### Aqui estamos inserindo as mesmas informações deletadas mas não com um id "default" e sim com o id que foi excluido.
+## Para que as consultas fiquem mais específicas, é possivel utilizar operadores que são uma mão na roda em determinados casos, veja um exemplo abaixo:
+```sql
+SELECT * FROM aluno WHERE estado = 'PE' ;
+```
+### Aqui estão sendo selecionados todos os alunos que residem no estado de pernambuco, veja a tabela abaixo:
+![tabela4](https://github.com/ERONILDOJUNIOR/SQL-introdu-o/blob/main/imagens/tabela4.png)
