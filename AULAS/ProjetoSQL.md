@@ -47,3 +47,13 @@ ALTER TABLE notas
 ADD COLUMN nota FLOAT AFTER id_notas,
 ADD COLUMN atividade VARCHAR(100) NOT NULL AFTER nota;
 ```
+## Se for preciso excluir alguma tabela no meio do projeto use o seguinte código:
+```sql
+DROP TABLE notas
+```
+### Este código apaga a tabela "notas" completamente. Da mesmo forma é possivel apagar todo o banco de dados com o comando DROP, a seguir um exemplo:
+```sql
+DROP DATABASE cursos
+```
+
+
