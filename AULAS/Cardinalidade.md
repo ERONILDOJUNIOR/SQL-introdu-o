@@ -1,5 +1,7 @@
 # CARDINALIDADES
-
+## Veja o esquema abaixo:
+![cardinalidade](https://github.com/ERONILDOJUNIOR/SQL-introdu-o/blob/main/imagens/cardinalidade1.png)
+# ---------------------------------------------
     Um aluno está relacionado com N notas.
     Um aluno está relacionado com N cursos.
 # ---------------------------------------------
@@ -10,5 +12,4 @@
     Uma nota só pode estar ligada a somente um curso.
 # ---------------------------------------------
 
-## Veja o esquema abaixo:
-![cardinalidade](https://github.com/ERONILDOJUNIOR/SQL-introdu-o/blob/main/imagens/cardinalidade1.png)
+
