@@ -27,7 +27,7 @@ id_notas INT NOT NULL AUTO_INCREMENT,
 PRIMARY KEY (id_notas)
 );
 ```
-### O comando "CREATE TABLE" é usado para criar as tabelas. O comando "INT" determina que é um inteiro, o comando "NOT NULL" determina que não pode ser nula e o comando "AUTO_INCREMENT" determina que esses valores serão auto incrementados.
+### O comando "CREATE TABLE" é usado para criar as tabelas. O comando "INT" determina que o atributo "id" é um inteiro, o comando "NOT NULL" determina que não pode ser nula e o comando "AUTO_INCREMENT" determina que esses valores serão auto incrementados.
 ## Para fazer alterações nas tabelas e inserir novas colunas utilizaremos os comandos abaixo:
 ```sql
 ALTER TABLE aluno
@@ -48,7 +48,7 @@ ALTER TABLE notas
 ADD COLUMN nota FLOAT AFTER id_notas,
 ADD COLUMN atividade VARCHAR(100) NOT NULL AFTER nota;
 ```
-### O coamndo "ALTER TABLE" possibilita a alteração de uma tabela, Já o comando "ADD COLUMN" torna possivel adicionar uma coluna á tabela. Ao adicionar colunas é preciso determinar seu tipo, e em alguns casos colocar restrições como a impossibilidade de ser nula, também é possivel determinar onde a coluna será adicionada através do comando "AFTER", no caso a coluna será adicionada "depois" da coluna referenciada.  
+### O comando "ALTER TABLE" possibilita a alteração de uma tabela, Já o comando "ADD COLUMN" torna possivel adicionar uma coluna á tabela. Ao adicionar colunas é preciso determinar seu tipo, e em alguns casos colocar restrições como a impossibilidade de ser nula, também é possivel determinar onde a coluna será adicionada através do comando "AFTER", no caso a coluna será adicionada "depois" da coluna referenciada.  
 ## Se for preciso excluir alguma tabela no meio do projeto use o seguinte código:
 ```sql
 DROP TABLE notas
