@@ -97,15 +97,21 @@ insert into aluno
 values (6, 'Edwildson Rodrigues','62781938152', '1995-08-22','Avenida Barão do ouro preto, 820', 'Juazeiro', 'BA');
 ```
 ### Aqui estamos inserindo as mesmas informações deletadas mas não com um id "default" e sim com o id que foi excluido.
-## Para que as consultas fiquem mais específicas, é possivel utilizar operadores que são uma mão na roda em determinados casos, veja um exemplo abaixo:
+## Para que as consultas fiquem mais ou até menos específicas, é possivel utilizar operadores que são uma mão na roda em determinados casos, veja um exemplo abaixo sem usar o operador lógico :
 ```sql
 SELECT * FROM aluno WHERE estado = 'PE' ;
 ```
 ### Aqui estão sendo selecionados todos os alunos que residem no estado de pernambuco, veja a tabela abaixo:
 ![tabela4](https://github.com/ERONILDOJUNIOR/SQL-introdu-o/blob/main/imagens/tabela4.png)
-## Também é possivel colocar em um mesmo comando de seleção mais de um operador:
+## Agora veja uma seleção utilizando o operador lógico "OR":
 ```sql
 SELECT * FROM aluno WHERE estado = 'PE' OR cidade = 'Juazeiro';
 ```
 ### Veja, agora estamos selecionando alunos que são de Pernambuco ou que residem em Juazeiro:
 ![tabela5](https://github.com/ERONILDOJUNIOR/SQL-introdu-o/blob/main/imagens/tabela5.png)
+## Também existem operadores relacionais que auxiliam nas seleções, como exemplo temos o operador ">":
+```sql
+SELECT * FROM aluno WHERE data_nascimento >= '2000-01-01';
+```
+### Aqui estão sendo selecionados aqueles que nasceram após a virada do ano 2000, veja os resultados:
+![tabela6](https://github.com/ERONILDOJUNIOR/SQL-introdu-o/blob/main/imagens/tabela6.png)
