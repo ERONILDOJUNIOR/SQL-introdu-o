@@ -107,5 +107,5 @@ SELECT * FROM aluno WHERE estado = 'PE' ;
 ```sql
 SELECT * FROM aluno WHERE estado = 'PE' OR cidade = 'Juazeiro';
 ```
-### Veja, agora estamos selecionando alunos que são de pernambuco ou que residem em Juazeiro:
+### Veja, agora estamos selecionando alunos que são de Pernambuco ou que residem em Juazeiro:
 ![tabela5](https://github.com/ERONILDOJUNIOR/SQL-introdu-o/blob/main/imagens/tabela5.png)
