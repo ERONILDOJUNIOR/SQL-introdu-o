@@ -44,4 +44,4 @@ Os alunos podem se matricular em cursos e ter suas respectivas notas baseadas em
           DATE      - Valor referênte a uma data "YYYY-MM-DD".
           TIME      - Valor referente a uma hora "hh:mm:ss".
           DATETIME  - Valor referente a uma data e uma hora "YYYY-MM-DD hh:mm:ss" . 
-## Agora vamos trabalhar com as tabelas: 
+## Agora vamos trabalhar com CARDINALIDADE: 
