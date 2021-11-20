@@ -45,3 +45,4 @@ Os alunos podem se matricular em cursos e ter suas respectivas notas baseadas em
           TIME      - Valor referente a uma hora "hh:mm:ss".
           DATETIME  - Valor referente a uma data e uma hora "YYYY-MM-DD hh:mm:ss" . 
 ## Agora vamos trabalhar com CARDINALIDADE: 
+![Introdução Cardinalidade](https://github.com/ERONILDOJUNIOR/SQL-introdu-o/blob/main/AULAS/Cardinalidade.md)
