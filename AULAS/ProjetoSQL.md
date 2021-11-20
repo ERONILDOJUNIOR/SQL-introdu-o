@@ -82,5 +82,5 @@ UPDATE aluno
 SET cpf='62781938125'
 where id_aluno = 6;
 ```
-### Aqui o comando "UPDATE" faz atualização e "seta" o cpf correto onde o "id_aluno" é igual a 6. A nova tabela terá essa cara, perceba a mudança no cpf de EDWILDSON:
+### Aqui o comando "UPDATE" faz atualização na tabela "aluno" e "seta" o cpf correto onde o "id_aluno" é igual a 6. A nova tabela terá essa cara, perceba a mudança no cpf de EDWILDSON:
 ![tabela1](https://github.com/ERONILDOJUNIOR/SQL-introdu-o/blob/main/imagens/tabela2.png)
