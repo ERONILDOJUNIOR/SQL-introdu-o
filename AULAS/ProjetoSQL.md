@@ -103,3 +103,9 @@ SELECT * FROM aluno WHERE estado = 'PE' ;
 ```
 ### Aqui estão sendo selecionados todos os alunos que residem no estado de pernambuco, veja a tabela abaixo:
 ![tabela4](https://github.com/ERONILDOJUNIOR/SQL-introdu-o/blob/main/imagens/tabela4.png)
+## Também é possivel colocar em um mesmo comando de seleção mais de um operador:
+```sql
+SELECT * FROM aluno WHERE estado = 'PE' OR cidade = 'Juazeiro';
+```
+### Veja, agora estamos selecionando alunos que são de pernambuco ou que residem em Juazeiro:
+![tabela5](https://github.com/ERONILDOJUNIOR/SQL-introdu-o/blob/main/imagens/tabela5.png)
