@@ -16,3 +16,5 @@
 ![cardinalidade](https://github.com/ERONILDOJUNIOR/SQL-introdu-o/blob/main/imagens/cardinalidade3.png)
 ## Nossas tabelas terão essa cara:
 ![cardinalidade](https://github.com/ERONILDOJUNIOR/SQL-introdu-o/blob/main/imagens/cardinalidade4.png)
+## Como fazer a ligação entre essas tabelas?
+[Utilizando Chaves primárias e Estrangeiras](https://github.com/ERONILDOJUNIOR/SQL-introdu-o/blob/main/AULAS/Chaves.md)
