@@ -69,7 +69,7 @@ INSERT INTO aluno VALUES
 (DEFAULT, 'Matheus Passos', '54665885632','2003-01-14','Avenida Dantas Machado, 317B','Belo Horizonte','MG'),
 (DEFAULT, 'Edwildson Rodrigues','6278193812', '1995-08-22','Avenida Barão do ouro preto, 820', 'Juazeiro', 'BA');
 ```
-### Com os comando "INSERT INTO" inserimos novas linhas a tabela, o comando "VALUES" é seguido por um par de parenteses "()", dentro deles teremos as informações para serem armazenadas nas tabelas, essas informações devem estar na ordem das colunas e separadas por virgula ",". Perceba que o primeiro parâmetro é passado como "DEFAULT", isso porque o "id" é uma chave primária que tem auto incremento, logo o próprio SGBD faz a distribuição desses IDs, Mas ainda sim é possivel setar um id específico.  
+### Com os comando "INSERT INTO" inserimos novas linhas a tabela, o comando "VALUES" é seguido por um par de parenteses "()", dentro deles teremos as informações para serem armazenadas nas tabelas, essas informações devem estar na ordem das colunas e separadas por virgula ",". Perceba que o primeiro parâmetro é passado como "DEFAULT", isso porque o "id" é uma chave primária que tem auto incremento, logo o próprio SGBD faz a distribuição desses IDs.
 ## Para verificar se a tabela está povoada execute o comando abaixo:
 ```sql
 SELECT * FROM curso.aluno
