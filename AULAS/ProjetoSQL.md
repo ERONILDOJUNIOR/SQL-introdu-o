@@ -76,3 +76,11 @@ SELECT * FROM curso.aluno
 ```
 ### O comando "SELECT" é usado para selecionar, após ele vem uma descrição do que selecionar, como o parâmetro foi " * " tudo será selecionado (todas as colunas), O comando "FROM" diz onde será a seleção, no nosso caso no banco "curso" na tabela "aluno". Deverá aparecer para você algo semelhante a isto:
 ![tabela1](https://github.com/ERONILDOJUNIOR/SQL-introdu-o/blob/main/imagens/tabela1.png)
+## Ao olhar a tabela é possivel identificar que o campo "cpf" de EDWILDSON está faltando um digito, o valor correto seria "62781938125", para fazer atualização desse tipo teremos os seguintes comandos:
+```sql
+UPDATE aluno
+SET cpf='62781938125'
+where id_aluno = 6;
+```
+### Aqui o comando "UPDATE" faz atualização e "seta" o cpf correto onde o "id_aluno" é igual a 6. A nova tabela terá essa cara, perceba a mudança no cpf de EDWILDSON:
+![tabela1](https://github.com/ERONILDOJUNIOR/SQL-introdu-o/blob/main/imagens/tabela2.png)
