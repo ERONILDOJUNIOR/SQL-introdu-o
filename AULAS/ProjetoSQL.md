@@ -51,7 +51,8 @@ ADD COLUMN atividade VARCHAR(100) NOT NULL AFTER nota;
 ```sql
 DROP TABLE notas
 ```
-### Este código apaga a tabela "notas" completamente. Da mesmo forma é possivel apagar todo o banco de dados com o comando DROP, a seguir um exemplo:
+### Este código apaga a tabela "notas" completamente. 
+## Da mesmo forma é possivel apagar todo o banco de dados com o comando DROP, a seguir um exemplo:
 ```sql
 DROP DATABASE cursos
 ```
